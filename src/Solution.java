@@ -4,7 +4,7 @@ class Solution {
 
         int row = 0;
 
-        // Return row (or the row below row) which contains target
+        // Return row (or the row above the row) which contains target
         if(j0 == j1) {
             return j0;
         }
